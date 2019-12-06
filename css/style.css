@@ -1,0 +1,129 @@
+
+	body {
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	* {
+		font-family: "Open Sans", "Arial", sans-serif;
+		box-sizing: border-box;
+		font-size: 12px;
+	}
+	
+	/*Nawigacja*/
+	
+	header {
+		background-color: #ffffff;
+		border: none;
+		height: 70px;
+		padding: 5px;
+	}
+	
+	header > p {
+		text-transform: uppercase;
+		margin-left: 75%;
+		margin-top: 25px;
+	}
+
+	header > p > a {
+		color: #2D4461;
+		font-size: 13px;
+		text-decoration: none;
+	}
+	
+	header > p > a:hover{
+		color: #68A0E3;
+		text-decoration: none;
+	}
+	
+	nav > ul {
+		display: flex;
+		list-style: none;
+		padding-left: auto;
+	}
+	
+	nav a {
+		text-decoration: none;
+		color: #fff;
+	}
+	
+	nav a:hover {
+		color: #68A0E3;
+	}
+	
+	nav li {
+		padding-right: 50px;
+	}
+	
+	.main-site > a {
+		font-weight: 700;
+	}
+	
+	.logo {
+		height: 60px;
+		float: left;
+	}
+	
+	.navigation {
+		display: flex;
+		background-color: #273b54;
+		text-transform: uppercase;
+		border: none;
+		padding-left: 100px;
+	}
+	
+	/*Wszystko w Body*/
+	
+	.background-main {
+		height: 88%;
+		background-image: url("../images/background.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: bottom;
+		display: flex;
+		justify-content: center;
+		color: #fff;
+	}
+
+	.main-text > h1 {
+		font-family: tahoma;
+		font-size: 30px;
+		margin-top: 70px;
+		margin-left: 25%;
+	}
+	
+	.main-text > p {
+		font-family: tahoma;
+		font-size: 20px;
+		margin-top: 80px;
+		text-align: center;
+	}
+	
+	.main-text > a {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	.main-check:hover {
+		background-color: #68A0E3;
+	}
+	
+	.main-check {
+		background-color: #4A71A1;
+		width: 100px;
+		height: 40px;
+		margin: auto;
+		border-radius: 10px;
+		text-align: center;
+		font-size: 15px;
+		padding-top: 10px;
+	}
+
+	@media only screen and (max-width: 600px) {
+	/* tablets: */
+	header {width: 70%;}
+	.logo {width: 150px; height: 40px;}
+	.navigation-main {width: 100%; padding-left: 0px;}
+	.main-text h1 {font-size: 27px;  margin-left: 16%;}
+	nav > ul > li {padding-right 2px;}
+	}
