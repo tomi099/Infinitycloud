@@ -5,7 +5,7 @@
 	}
 	
 	* {
-		font-family: "Open Sans", "Arial", sans-serif;
+		font-family: Open Sans, Arial, "sans-serif";
 		box-sizing: border-box;
 		font-size: 12px;
 	}
@@ -118,6 +118,11 @@
 		font-size: 15px;
 		padding-top: 10px;
 	}
+	
+	/* Stopka */
+	
+	
+	
 
 	@media only screen and (max-width: 600px) {
 	/* tablets: */
