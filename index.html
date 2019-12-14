@@ -6,6 +6,9 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 		<link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
 		<script type="text/javascript" src="js/app.js"></script>
 	</head>
@@ -21,24 +24,99 @@
 			<section class="navigation">
 				<nav>
 					<ul>
-						<li><a href="#">Serwery</a></li>
-						<li><a href="#">Public Cloud</a></li>
-						<li><a href="#">Hosting</a></li>
-						<li><a href="#">Enterprise</a></li>
-						<li><a href="#">Programy</a></li>
-						<li><a href="#">O nas</a></li>
+						<li class="active"><a data-toggle="tab"  href="#home">Serwery</a></li>
+						<li><a data-toggle="tab" href="#menu1">Public Cloud</a></li>
+						<li><a data-toggle="tab" href="#menu2">Hosting</a></li>
+						<li><a data-toggle="tab" href="#menu3">Enterprise</a></li>
+						<li><a data-toggle="tab" href="#menu4">Programy</a></li>
+						<li><a data-toggle="tab" href="#menu5">O nas</a></li>
 					</ul>
 				</nav>
 			</section>
-			<section class="background-main">
-				<section class="main-text">
+			
+			
+			<section class="background-main ">
+			<div class="tab-content">
+				<section id="home" class="tab-pane fade in active main-text">
 				<h1>Nowa gama serwerów Power</h1>
 				<p>Zaprojektuj wydajną infrastrukturę dzięki serwerom dedykowanym z nowej gamy Power.</p>
 				<p>Już od 480,89 PLN netto / m-c</p>
 				<a href="#"><div class="main-check">Sprawdź</div></a>
 				</section>
+				<section id="menu1" class="tab-pane fade main-text">
+				<h1>Public Cloud</h1>
+				<p>IncinityCloud Public Cloud to wiele rozwiązań w chmurze fakturowanych według zużycia zasobów. <br /> 
+				Zarządzanie infrastrukturą zostało specjalnie uproszczone, aby prowadzenie <br />
+				Twojego biznesu stało się łatwiejsze: korzystasz z elastyczności zasobów na żądanie, <br />
+				aby dopasowywać ich zużycie do Twoich potrzeb, poczynając od najbardziej standardowych usług, <br />
+				a na wdrożeniach na skalę przemysłową kończąc.
+				</p>
+				</section>
+				<section id="menu2" class="tab-pane fade main-text">
+				<h1>Rozpocznij swój projekt internetowy</h1>
+				<p>Rozwijaj Twój projekt, wykorzystując nasze rozwiązania hostingowe, domenę oraz usługi dodatkowe.
+				</p>
+				</section>
+				<section id="menu3" class="tab-pane fade main-text">
+				<h1>Odpowiednie rozwiązania i produkty dla Twojej firmy</h1>
+				<p>Nasze rozwiązania i produkty Enterprise ułatwią Ci przejście do chmury. <br />
+				Oferujemy zwiększoną - w porównaniu do środowisk hostowanych lokalnie i starszych systemów IT - zwinność i innowacyjność.
+				</p>
+				</section>
+				<section id="menu4" class="tab-pane fade main-text">
+				<h1>Program partnerski w oparciu o naszą chmurę</h1>
+				<p>Nasze rozwiązania i produkty Enterprise ułatwią Ci przejście do chmury. <br />
+				Opracowaliśmy program partnerski, dzięki któremu możemy dostarczać naszym <br />
+				partnerom oraz klientom dokładnie to, czego potrzebują: alternatywną chmurę <br />
+				pozwalającą zachować kontrolę, a także uniknąć nieprzyjemnych niespodzianek <br />
+				i zaoszczędzić czas oraz pieniądze.
+				</p>
+				</section>
+				<section id="menu5" class="tab-pane fade main-text">
+				<h1>O nas</h1>
+				<p>Nasze rozwiązania i produkty Enterprise ułatwią Ci przejście do chmury. <br />
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
+				Phasellus viverra lectus ac enim ullamcorper sollicitudin. Maecenas lectus ex, varius ut maximus quis, ultricies id elit.<br />
+				Proin consectetur ipsum ac ullamcorper dictum. Curabitur tincidunt eros vitae felis sollicitudin tristique. <br />
+				Proin non orci nec nisi sagittis semper quis sit amet tortor. 
+				</p>
+				</section>
+			</div>
 			</section>
+			
+			
 		<footer>
+				<ul class="contact-details">
+					<li><i class="fas fa-map-marker-alt"></i>
+						ul. Kochanowskiego 32B <br>33-100 Tarnów
+					</li>
+					<li><i class="fas fa-phone"></i>
+						666 - 777 - 888
+					</li>
+					<li><i class="fas fa-envelope"></i>
+						<a href="mailto:info@infinitycloud.pl">info@infinitycloud.pl</a>
+					</li>
+					<li><i class="fas fa-globe"></i>
+						<a href="#">infinitycloud.pl</a>
+					</li>
+				</ul>
+				<ul class="social-media">
+					<li>
+						<a href="http://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+					</li>
+					<li>
+					<a href="http://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+					</li>
+					<li>
+						<a href="http://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+					</li>
+					<li>
+						<a href="http://plus.google.com/" target="_blank"><i class="fab fa-google"></i></a>
+					</li>
+					<li>
+						<a href="http://pl.pinterest.com/" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+					</li>
+				</ul>
 				
 		</footer>
 	</body>
