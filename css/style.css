@@ -139,7 +139,6 @@
 	footer {
 		background-color: #273b54;
 		padding: 15px 43.5%;
-		height: 169px;
 		color: #fff;
 		text-align: center;
 	}
@@ -156,23 +155,6 @@
 	
 	.contact-details i {
 		margin-right: 10px;
-	}
-	
-	.social-media {
-		list-style: none;
-		display: flex;
-		text-decoration: none;
-	}
-	
-	.social-media li {
-		background-color: 4A71A1;
-		margin-right: 10px;
-		height: 25px;
-		width: 25px;
-		border-radius: 5px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
 	}
 	
 	footer a {
