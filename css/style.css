@@ -137,9 +137,9 @@
 	/* Stopka */
 	
 	footer {
-		display: flex;
 		background-color: #273b54;
 		padding: 15px 43.5%;
+		height: 169px;
 		color: #fff;
 		text-align: center;
 	}
